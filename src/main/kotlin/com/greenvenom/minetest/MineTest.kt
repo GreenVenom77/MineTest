@@ -30,6 +30,9 @@ object MineTest {
     init {
         LOGGER.log(Level.INFO, "Hello world!")
 
+        // Register the KDeferredRegister to the mod-specific event bus
+        ModBlocks.REGISTRY.register(MOD_BUS)
+
         val obj = runForDist(clientTarget = {
             MOD_BUS.addListener(::onClientSetup)
             Minecraft.getInstance()
