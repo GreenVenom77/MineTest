@@ -1,0 +1,49 @@
+# Eclipse
+bin/
+*.launch
+.settings/
+.metadata/
+.classpath
+.project
+eclipse/
+
+# IntelliJ IDEA
+.idea/
+*.ipr
+*.iws
+*.iml
+out/
+
+# VSCode
+.vscode/
+
+# Gradle
+.gradle/
+build/
+
+# Minecraft-specific
+run/
+runs/
+run-data/
+logs/
+eula.txt
+*.launch
+
+# Kotlin tooling
+.kotlin/
+
+# Compiled code
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs & system
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Others
+repo/
